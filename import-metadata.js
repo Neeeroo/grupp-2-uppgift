@@ -16,7 +16,7 @@ const db = await mysql.createConnection({
     user: 'root',
     password: 'guessagain92',
     database: 'test'
-  });
+  }); 
 
   // Function to be able to run querys in MySQL
   async function query(sql, listOfValues) {
